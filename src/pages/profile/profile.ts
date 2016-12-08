@@ -4,9 +4,9 @@ import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-about',
-  templateUrl: 'about.html'
+  templateUrl: 'profile.html'
 })
-export class AboutPage {
+export class ProfilePage {
   gender: string = "m";
 location: string = "boulder";
 skillLevel: { title: string, subTitle: string};
